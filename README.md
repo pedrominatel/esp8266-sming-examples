@@ -1,2 +1,4 @@
-# esp8266-sming-examples
-ESP8266 Sming examples
+# Sming Examples for ESP8266
+
+
+ESP8266 Sming examples:
