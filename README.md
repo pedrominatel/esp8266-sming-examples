@@ -2,3 +2,6 @@
 
 
 ESP8266 Sming examples:
+
+*IFTTT*
+*Socket.io*
