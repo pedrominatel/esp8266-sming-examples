@@ -39,7 +39,7 @@ void sendData()
 
 	if((digitalRead(bt_pin)) && (bt_status == 0)) {
 		bt_status = 1;
-		ifttt.downloadString("http://maker.ifttt.com/trigger/"+ EVENT +"/with/key/" + MAKER_KEY, onDataSent);
+		ifttt.downloadString("http://maker.ifttt.com/trigger/"+ String(EVENT) +"/with/key/" + String(MAKER_KEY), onDataSent);
 	}
 }
 
